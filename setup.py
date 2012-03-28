@@ -6,7 +6,7 @@ setup(
 	author='Tyler Wiest',
 	author_email='jtwiest@bu.edu',
 	packages=['django_buadmin',],
-	url='http://github.com/bu-ist/django-bu-admin',
+	url='http://github.com/bu-ist/bu-django-admin',
 	license='LICENSE.txt',
 	description='A BU branded skin for the built-in Django Admin',
 	long_description=open('README.rst').read(),
