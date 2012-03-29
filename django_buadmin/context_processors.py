@@ -9,6 +9,6 @@ def is_using_cas(request):
 	try:
 		exists = settings.BU_ADMIN_USE_CAS
 	except:
-		exists = 'FALSE'
+		exists = False
 	
 	return {'is_using_cas': exists}
