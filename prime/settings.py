@@ -19,7 +19,7 @@ MANAGERS = ADMINS
 # deployment-specific settings files (i.e. settings_local, settings_dev)
 # DATABASES = {
 #     'default': {
-#         'ENGINE': 'django.db.backends.mysql', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
+#         'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
 #         'NAME': '',                      # Or path to database file if using sqlite3.
 #         'USER': '',                      # Not used with sqlite3.
 #         'PASSWORD': '',                  # Not used with sqlite3.
@@ -107,7 +107,7 @@ STATICFILES_FINDERS = (
 
 # Make this unique, and don't share it with anybody.
 # BU: make sure to replace this per-app
-SECRET_KEY = 'PLEASECHANGEME!'
+SECRET_KEY = ''
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
