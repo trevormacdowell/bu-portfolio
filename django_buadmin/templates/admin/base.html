@@ -33,7 +33,7 @@
                 {% if docsroot %}
                     <a href="{{ docsroot }}">{% trans 'Documentation' %}</a> /
                 {% endif %}
-                {% if !is_using_cas %}
+                {% if not is_using_cas %}
                 {% url 'admin:password_change' as password_change_url %}
                 {% if password_change_url %}
                     <a href="{{ password_change_url }}">
