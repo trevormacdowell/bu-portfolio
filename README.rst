@@ -5,10 +5,14 @@ BU Django Admin
 A BU branded skin over the built-in Django Admin.
 
 -----------
-Requirements
+Installation
 -----------
 
 1. Add 'django_buadmin' to INSTALLED_APPS
+
+-----------
+CAS Integration
+-----------
 
 If you are also using the BU Django CAS middleware and would like to modify the admin templates to remove the change password links and fields, there are two additional steps:
 
