@@ -107,7 +107,7 @@ STATICFILES_FINDERS = (
 
 # Make this unique, and don't share it with anybody.
 # BU: make sure to replace this per-app
-SECRET_KEY = ''
+SECRET_KEY = 'd4$m=k#l61qp35vnp&6^#g23d_v+7)(-u8c2uqkji&ueu&1*pa'
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
