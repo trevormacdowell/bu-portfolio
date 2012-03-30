@@ -18,3 +18,5 @@ ssh==1.7.13
 wsgiref==0.1.2
 
 # PROJECT-SPECIFIC REQUIREMENTS
+https://github.com/bu-ist/bu-django-admin/tarball/master
+https://github.com/bu-ist/django-bu-cas/tarball/master
