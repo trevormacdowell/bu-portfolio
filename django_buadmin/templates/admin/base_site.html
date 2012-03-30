@@ -1,0 +1,10 @@
+{% extends "admin/base.html" %}
+{% load i18n %}
+
+{% block title %}{{ title }} | {% trans 'Django site admin' %}{% endblock %}
+{% block branding %}
+<img class="bu-branding" src="{{ STATIC_URL }}django_buadmin/img/master-logo-small.gif" alt="Boston University" />
+<h1 id="site-name">{% trans 'Django Administration' %}</h1>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}
