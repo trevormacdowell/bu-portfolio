@@ -10,7 +10,7 @@ PROJECT_DIR = os.path.dirname(__file__) # this is not Django setting.
 
 # BU: 
 ADMINS = (
-    # ('Your Name', 'your_email@example.com'),
+    ('Trevor MacDowell', 'tlm@bu.edu'),
 )
 
 MANAGERS = ADMINS
@@ -180,6 +180,7 @@ INSTALLED_APPS = (
     # BU Branded Django Admin
     'django_buadmin', 
     'django_bucas',
+    'bu_portfolio_management',
 
 )
 
